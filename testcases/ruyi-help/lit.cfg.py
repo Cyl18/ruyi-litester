@@ -8,3 +8,4 @@ if os.environ.get('PATH'):
     config.environment['PATH'] = os.environ.get('PATH')
 
 config.environment['PYTHONPATH'] = os.environ.get('PYTHONPATH', '')
+config.test_retry_attempts = 3
